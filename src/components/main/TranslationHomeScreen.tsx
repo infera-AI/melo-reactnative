@@ -22,6 +22,8 @@ interface TranslationHomeScreenProps {
   onNavigateToAssistant?: () => void;
   onTabSwitch?: (tab: string) => void;
   onNavigateToMusic?: () => void;
+  onNavigateToBluetoothPairing?: () => void;
+  onNavigateToBluetoothConnected?: () => void;
 }
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
@@ -33,6 +35,8 @@ const TranslationHomeScreen: React.FC<TranslationHomeScreenProps> = ({
   onNavigateToAssistant,
   onTabSwitch,
   onNavigateToMusic,
+  onNavigateToBluetoothPairing,
+  onNavigateToBluetoothConnected,
 }) => {
   const [activeTab, setActiveTab] = useState('translation');
   const [fromLanguage, setFromLanguage] = useState('中文');
@@ -76,6 +80,10 @@ const TranslationHomeScreen: React.FC<TranslationHomeScreenProps> = ({
     setActiveTab(tab);
     if (tab === 'music' && onNavigateToMusic) {
       onNavigateToMusic();
+    } else if (tab === 'bluetooth-pairing' && onNavigateToBluetoothPairing) {
+      onNavigateToBluetoothPairing();
+    } else if (tab === 'bluetooth-connected' && onNavigateToBluetoothConnected) {
+      onNavigateToBluetoothConnected();
     } else if (onTabSwitch) {
       onTabSwitch(tab);
     }
@@ -320,6 +328,48 @@ const TranslationHomeScreen: React.FC<TranslationHomeScreenProps> = ({
             activeTab === 'contacts' && styles.navTabTextActive
           ]}>
             通讯录
+          </Text>
+        </TouchableOpacity>
+        
+        <TouchableOpacity 
+          style={[
+            styles.navTab,
+            activeTab === 'bluetooth-pairing' && styles.navTabActive
+          ]}
+          onPress={() => handleTabPress('bluetooth-pairing')}
+        >
+          <Text style={[
+            styles.navTabIcon,
+            activeTab === 'bluetooth-pairing' && styles.navTabIconActive
+          ]}>
+            🔗
+          </Text>
+          <Text style={[
+            styles.navTabText,
+            activeTab === 'bluetooth-pairing' && styles.navTabTextActive
+          ]}>
+            配对
+          </Text>
+        </TouchableOpacity>
+        
+        <TouchableOpacity 
+          style={[
+            styles.navTab,
+            activeTab === 'bluetooth-connected' && styles.navTabActive
+          ]}
+          onPress={() => handleTabPress('bluetooth-connected')}
+        >
+          <Text style={[
+            styles.navTabIcon,
+            activeTab === 'bluetooth-connected' && styles.navTabIconActive
+          ]}>
+            ✅
+          </Text>
+          <Text style={[
+            styles.navTabText,
+            activeTab === 'bluetooth-connected' && styles.navTabTextActive
+          ]}>
+            已连接
           </Text>
         </TouchableOpacity>
         
@@ -632,15 +682,15 @@ const styles = StyleSheet.create({
     // 激活状态样式在单独的样式中定义
   },
   navTabIcon: {
-    fontSize: 20,
-    marginBottom: 4,
+    fontSize: 18,
+    marginBottom: 3,
     color: '#64748b',
   },
   navTabIconActive: {
     color: '#3b82f6',
   },
   navTabText: {
-    fontSize: 12,
+    fontSize: 10,
     color: '#64748b',
     fontWeight: '500',
   },

@@ -7,6 +7,7 @@ import {
   LanguageSelector,
   LoadingScreen,
   BluetoothPairingScreen,
+  BluetoothConnectedScreen,
   RegisterScreen,
   SplashScreen,
   WelcomeScreen,
@@ -62,6 +63,7 @@ function App() {
   const [debugPanelVisible, setDebugPanelVisible] = useState(false);
   const [languageSelectorVisible, setLanguageSelectorVisible] = useState(false);
   const [showBluetoothPairing, setShowBluetoothPairing] = useState(false);
+  const [showBluetoothConnected, setShowBluetoothConnected] = useState(false);
   const [showRegisterScreen, setShowRegisterScreen] = useState(false);
   const [showForgotPassword, setShowForgotPassword] = useState(false);
   const [showVerificationLogin, setShowVerificationLogin] = useState(false);
@@ -787,6 +789,16 @@ function App() {
             setShowTranslationHome(false);
             setShowMusicHome(true);
           }}
+          onNavigateToBluetoothPairing={() => {
+            console.log('导航到蓝牙配对页面');
+            setShowTranslationHome(false);
+            setShowBluetoothPairing(true);
+          }}
+          onNavigateToBluetoothConnected={() => {
+            console.log('导航到蓝牙已连接页面');
+            setShowTranslationHome(false);
+            setShowBluetoothConnected(true);
+          }}
           onTabSwitch={(tab) => {
             console.log(`切换到${tab}标签`);
             if (tab === 'contacts') {
@@ -1401,7 +1413,28 @@ function App() {
     // 如果显示蓝牙配对页面
     if (showBluetoothPairing) {
       return (
-        <BluetoothPairingScreen onClose={() => setShowBluetoothPairing(false)} />
+        <BluetoothPairingScreen onClose={() => {
+          // 导航到翻译主页
+          setShowBluetoothPairing(false); 
+          setShowTranslationHome(true);
+        }} />
+      );
+    }
+
+    // 如果显示蓝牙已连接页面
+    if (showBluetoothConnected) {
+      return (
+        <BluetoothConnectedScreen 
+          onClose={() => {
+            setShowBluetoothConnected(false);
+            setShowTranslationHome(true);
+          }}
+          onContinue={() => {
+            console.log('蓝牙连接完成，继续下一步');
+            setShowBluetoothConnected(false);
+            setShowTranslationHome(true);
+          }}
+        />
       );
     }
 
