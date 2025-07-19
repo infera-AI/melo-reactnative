@@ -1,0 +1,260 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "success": "Succès",
+    "failed": "Échec",
+    "error": "Erreur",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "refresh": "Actualiser",
+    "clear": "Effacer",
+    "export": "Exporter",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "settings": "Paramètres",
+    "tapToView": "Appuyer pour voir les détails",
+    "empty": "Vide",
+    "requestDetails": "Détails de la requête",
+    "requestHeaders": "En-têtes de requête",
+    "requestParams": "Paramètres de requête",
+    "responseHeaders": "En-têtes de réponse",
+    "responseData": "Données de réponse"
+  },
+  "app": {
+    "title": "Test API",
+    "subtitle": "Configuration API terminée",
+    "status": "Application React Native en cours d'exécution"
+  },
+  "api": {
+    "test": {
+      "login": "Test API de connexion",
+      "getPosts": "Test API d'obtention d'articles",
+      "createPost": "Test API de création d'article",
+      "requesting": "Requête en cours..."
+    },
+    "result": {
+      "title": "Résultat de l'appel API:",
+      "loginSuccess": "Connexion réussie",
+      "loginFailed": "Échec de connexion",
+      "getPostsSuccess": "Obtention des articles réussie",
+      "getPostsFailed": "Échec d'obtention des articles",
+      "createPostSuccess": "Création d'article réussie",
+      "createPostFailed": "Échec de création d'article",
+      "clearResult": "Effacer le résultat"
+    }
+  },
+  "debug": {
+    "title": "Ouvrir le panneau de débogage",
+    "panel": {
+      "title": "Panneau de débogage",
+      "network": "Réseau",
+      "device": "Appareil",
+      "logs": "Journaux",
+      "performance": "Performance"
+    },
+    "network": {
+      "stats": "Statistiques réseau",
+      "total": "Total des requêtes",
+      "success": "Succès",
+      "failed": "Échec",
+      "avgTime": "Temps moyen",
+      "recentRequests": "Requêtes récentes",
+      "slowRequests": "Requêtes lentes",
+      "refresh": "Actualiser",
+      "clear": "Effacer",
+      "export": "Exporter",
+      "exportTitle": "Données de débogage réseau",
+      "exportFailed": "Échec d'exportation",
+      "exportError": "Impossible d'exporter les données réseau",
+      "networkCleared": "Données réseau effacées",
+      "requestPending": "En attente",
+      "requestError": "Erreur de requête",
+      "duration": "Durée"
+    },
+    "device": {
+      "info": "Informations sur l'appareil",
+      "platform": "Plateforme",
+      "version": "Version",
+      "model": "Modèle",
+      "memory": "Mémoire",
+      "battery": "Batterie",
+      "screenSize": "Taille de l'écran",
+      "deviceName": "Nom de l'appareil",
+      "brand": "Marque",
+      "debugMode": "Mode débogage",
+      "development": "Développement",
+      "production": "Production"
+    },
+    "performance": {
+      "title": "Surveillance des performances",
+      "memoryUsage": "Utilisation de la mémoire",
+      "batteryLevel": "Niveau de batterie",
+      "slowRequests": "Requêtes lentes (>2s)"
+    },
+    "logs": {
+      "title": "Journaux",
+      "clear": "Effacer les journaux",
+      "export": "Exporter les journaux",
+      "filter": "Filtrer",
+      "all": "Tous",
+      "info": "Info",
+      "warning": "Avertissement",
+      "error": "Erreur"
+    }
+  },
+  "features": {
+    "title": "Configuration de la pile technologique",
+    "list": {
+      "httpClient": "Client HTTP: axios + intercepteurs",
+      "tokenManagement": "Gestion automatique des jetons",
+      "errorHandling": "Gestion d'erreurs unifiée",
+      "typescript": "Support de types TypeScript",
+      "logging": "Journalisation requête/réponse",
+      "debugTools": "Intégration d'outils de débogage"
+    },
+    "status": "Styles React Native StyleSheet"
+  },
+  "language": {
+    "title": "Paramètres de langue",
+    "current": "Langue actuelle",
+    "switch": "Changer de langue",
+    "chinese": "简体中文",
+    "english": "English",
+    "japanese": "日本語",
+    "french": "Français",
+    "spanish": "Español",
+    "switchSuccess": "Changement de langue réussi",
+    "switchFailed": "Échec du changement de langue"
+  },
+  "auth": {
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "register": "S'inscrire",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "email": "Email",
+    "phone": "Téléphone",
+    "name": "Nom"
+  },
+  "login": {
+    "title": "Se connecter au compte Lingo",
+    "phoneLogin": "Connexion par téléphone",
+    "emailLogin": "Connexion par email",
+    "phoneNumber": "Numéro de téléphone",
+    "phoneNumberPlaceholder": "Entrez votre numéro de téléphone",
+    "email": "Email",
+    "emailPlaceholder": "Entrez votre adresse email",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "Entrez votre mot de passe de connexion",
+    "loginButton": "Se connecter",
+    "loggingIn": "Connexion en cours...",
+    "forgotPassword": "Mot de passe oublié ?",
+    "verificationLogin": "Connexion par code de vérification",
+    "loginSuccess": "Connexion réussie",
+    "loginFailed": "Échec de connexion",
+    "invalidPhone": "Veuillez entrer un numéro de téléphone et un mot de passe corrects",
+    "invalidEmail": "Veuillez entrer une adresse email et un mot de passe corrects",
+    "networkError": "Échec de connexion réseau, veuillez réessayer"
+  },
+  "posts": {
+    "title": "Articles",
+    "list": "Liste des articles",
+    "detail": "Détail de l'article",
+    "create": "Créer un article",
+    "edit": "Modifier l'article",
+    "delete": "Supprimer l'article",
+    "publish": "Publier",
+    "draft": "Brouillon",
+    "archived": "Archivé",
+    "content": "Contenu",
+    "author": "Auteur",
+    "createdAt": "Date de création",
+    "updatedAt": "Date de mise à jour"
+  },
+  "validation": {
+    "required": "Ce champ est obligatoire",
+    "email": "Veuillez entrer une adresse email valide",
+    "phone": "Veuillez entrer un numéro de téléphone valide",
+    "minLength": "Minimum {{count}} caractères requis",
+    "maxLength": "Maximum {{count}} caractères autorisés"
+  },
+  "network": {
+    "offline": "Connexion réseau perdue",
+    "online": "Connexion réseau restaurée",
+    "timeout": "Délai d'attente dépassé",
+    "serverError": "Erreur serveur",
+    "networkError": "Erreur réseau, veuillez vérifier votre connexion"
+  },
+  "bluetooth": {
+    "title": "Connecter les écouteurs Lingo",
+    "searching": "Recherche en cours...",
+    "searchingDevices": "Recherche d'appareils en cours",
+    "instructions": "Veuillez vous assurer que vos écouteurs sont allumés et en mode d'appairage",
+    "stepTitle": "Étapes d'appairage :",
+    "step1": "1. Appuyez longuement sur le bouton d'alimentation pendant 3 secondes",
+    "step2": "2. Attendez que le voyant lumineux clignote",
+    "step3": "3. Les écouteurs entreront automatiquement en mode d'appairage",
+    "helpLink": "Impossible de trouver les écouteurs ?",
+    "helpTitle": "Aide à l'appairage et dépannage",
+    "helpContent": "Si vous ne trouvez pas vos écouteurs, veuillez essayer les méthodes suivantes :\n\n1. Vérifiez que les écouteurs sont chargés\n2. Redémarrez la fonction Bluetooth\n3. Effacez le cache Bluetooth\n4. Réinitialisez les écouteurs aux paramètres d'usine\n5. Assurez-vous que les écouteurs sont à moins d'un mètre de votre téléphone",
+    "tryAgain": "Rechercher à nouveau",
+    "close": "Fermer"
+  },
+  "register": {
+    "title": "Créer un compte Lingo",
+    "phoneTab": "Inscription par téléphone",
+    "emailTab": "Inscription par email",
+    "regionSelector": "Chine continentale +86",
+    "phonePlaceholder": "Entrez votre numéro de téléphone",
+    "emailPlaceholder": "Entrez votre adresse email",
+    "sendCode": "Envoyer le code de vérification",
+    "sendingCode": "Envoi en cours...",
+    "agreementPrefix": "J'ai lu et j'accepte",
+    "userAgreement": "Conditions d'utilisation",
+    "privacyPolicy": "Politique de confidentialité",
+    "agreementSeparator": "et",
+    "phoneError": "Veuillez entrer un numéro de téléphone correct",
+    "emailError": "Veuillez entrer une adresse email correcte",
+    "agreementError": "Veuillez d'abord accepter les conditions d'utilisation et la politique de confidentialité",
+    "sendSuccess": "Code de vérification envoyé",
+    "sendFailed": "Échec de l'envoi du code de vérification, veuillez réessayer"
+  },
+  "splash": {
+    "appName": "Lingo",
+    "slogan": "Rendre l'apprentissage des langues plus facile",
+    "subSlogan": "Alimenté par l'IA intelligente, commencez votre voyage linguistique",
+    "version": "Version"
+  },
+  "welcome": {
+    "appName": "Écouteurs Lingo AI",
+    "slogan": "Ouvrir de nouvelles frontières de communication intelligente",
+    "features": {
+      "translation": {
+        "title": "Traduction précise par IA",
+        "description": "Traduction multilingue en temps réel, briser les barrières linguistiques",
+        "icon": "🌐"
+      },
+      "voiceClone": {
+        "title": "Clonage vocal personnalisé",
+        "description": "Clonez votre voix pour une expérience vocale personnalisée",
+        "icon": "🎤"
+      },
+      "companion": {
+        "title": "Partenaire de communication intelligent",
+        "description": "Assistant IA pour rendre la communication plus intelligente et efficace",
+        "icon": "🤖"
+      }
+    },
+    "registerButton": "Créer un compte Lingo",
+    "loginPrompt": "Vous avez déjà un compte ?",
+    "loginLink": "Se connecter maintenant",
+    "agreementText": "En vous inscrivant ou en vous connectant, vous indiquez avoir lu et accepté",
+    "userAgreement": "Conditions d'utilisation",
+    "privacyPolicy": "Politique de confidentialité",
+    "agreementSeparator": "et"
+  }
+} 

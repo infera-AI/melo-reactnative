@@ -1,0 +1,260 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "success": "Éxito",
+    "failed": "Falló",
+    "error": "Error",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "close": "Cerrar",
+    "refresh": "Actualizar",
+    "clear": "Limpiar",
+    "export": "Exportar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "settings": "Configuración",
+    "tapToView": "Toca para ver detalles",
+    "empty": "Vacío",
+    "requestDetails": "Detalles de la solicitud",
+    "requestHeaders": "Encabezados de solicitud",
+    "requestParams": "Parámetros de solicitud",
+    "responseHeaders": "Encabezados de respuesta",
+    "responseData": "Datos de respuesta"
+  },
+  "app": {
+    "title": "Prueba de API",
+    "subtitle": "Configuración de API completada",
+    "status": "Aplicación React Native en ejecución"
+  },
+  "api": {
+    "test": {
+      "login": "Prueba de API de inicio de sesión",
+      "getPosts": "Prueba de API para obtener publicaciones",
+      "createPost": "Prueba de API para crear publicación",
+      "requesting": "Solicitando..."
+    },
+    "result": {
+      "title": "Resultado de la llamada API:",
+      "loginSuccess": "Inicio de sesión exitoso",
+      "loginFailed": "Fallo en el inicio de sesión",
+      "getPostsSuccess": "Obtención de publicaciones exitosa",
+      "getPostsFailed": "Fallo en la obtención de publicaciones",
+      "createPostSuccess": "Creación de publicación exitosa",
+      "createPostFailed": "Fallo en la creación de publicación",
+      "clearResult": "Limpiar resultado"
+    }
+  },
+  "debug": {
+    "title": "Abrir panel de depuración",
+    "panel": {
+      "title": "Panel de depuración",
+      "network": "Red",
+      "device": "Dispositivo",
+      "logs": "Registros",
+      "performance": "Rendimiento"
+    },
+    "network": {
+      "stats": "Estadísticas de red",
+      "total": "Total de solicitudes",
+      "success": "Éxito",
+      "failed": "Falló",
+      "avgTime": "Tiempo promedio",
+      "recentRequests": "Solicitudes recientes",
+      "slowRequests": "Solicitudes lentas",
+      "refresh": "Actualizar",
+      "clear": "Limpiar",
+      "export": "Exportar",
+      "exportTitle": "Datos de depuración de red",
+      "exportFailed": "Fallo en la exportación",
+      "exportError": "No se pueden exportar los datos de red",
+      "networkCleared": "Datos de red limpiados",
+      "requestPending": "Pendiente",
+      "requestError": "Error de solicitud",
+      "duration": "Duración"
+    },
+    "device": {
+      "info": "Información del dispositivo",
+      "platform": "Plataforma",
+      "version": "Versión",
+      "model": "Modelo",
+      "memory": "Memoria",
+      "battery": "Batería",
+      "screenSize": "Tamaño de pantalla",
+      "deviceName": "Nombre del dispositivo",
+      "brand": "Marca",
+      "debugMode": "Modo de depuración",
+      "development": "Desarrollo",
+      "production": "Producción"
+    },
+    "performance": {
+      "title": "Monitor de rendimiento",
+      "memoryUsage": "Uso de memoria",
+      "batteryLevel": "Nivel de batería",
+      "slowRequests": "Solicitudes lentas (>2s)"
+    },
+    "logs": {
+      "title": "Registros",
+      "clear": "Limpiar registros",
+      "export": "Exportar registros",
+      "filter": "Filtrar",
+      "all": "Todos",
+      "info": "Información",
+      "warning": "Advertencia",
+      "error": "Error"
+    }
+  },
+  "features": {
+    "title": "Configuración de la pila tecnológica",
+    "list": {
+      "httpClient": "Cliente HTTP: axios + interceptores",
+      "tokenManagement": "Gestión automática de tokens",
+      "errorHandling": "Manejo de errores unificado",
+      "typescript": "Soporte de tipos TypeScript",
+      "logging": "Registro de solicitudes/respuestas",
+      "debugTools": "Integración de herramientas de depuración"
+    },
+    "status": "Estilos React Native StyleSheet"
+  },
+  "language": {
+    "title": "Configuración de idioma",
+    "current": "Idioma actual",
+    "switch": "Cambiar idioma",
+    "chinese": "简体中文",
+    "english": "English",
+    "japanese": "日本語",
+    "french": "Français",
+    "spanish": "Español",
+    "switchSuccess": "Cambio de idioma exitoso",
+    "switchFailed": "Fallo en el cambio de idioma"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "register": "Registrarse",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "name": "Nombre"
+  },
+  "login": {
+    "title": "Iniciar sesión en la cuenta Lingo",
+    "phoneLogin": "Inicio de sesión por teléfono",
+    "emailLogin": "Inicio de sesión por correo electrónico",
+    "phoneNumber": "Número de teléfono",
+    "phoneNumberPlaceholder": "Ingrese su número de teléfono",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "Ingrese su dirección de correo electrónico",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Ingrese su contraseña de inicio de sesión",
+    "loginButton": "Iniciar sesión",
+    "loggingIn": "Iniciando sesión...",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "verificationLogin": "Inicio de sesión por código de verificación",
+    "loginSuccess": "Inicio de sesión exitoso",
+    "loginFailed": "Fallo en el inicio de sesión",
+    "invalidPhone": "Por favor, ingrese un número de teléfono y contraseña correctos",
+    "invalidEmail": "Por favor, ingrese un correo electrónico y contraseña correctos",
+    "networkError": "Fallo en la conexión de red, por favor inténtelo de nuevo"
+  },
+  "posts": {
+    "title": "Publicaciones",
+    "list": "Lista de publicaciones",
+    "detail": "Detalle de la publicación",
+    "create": "Crear publicación",
+    "edit": "Editar publicación",
+    "delete": "Eliminar publicación",
+    "publish": "Publicar",
+    "draft": "Borrador",
+    "archived": "Archivado",
+    "content": "Contenido",
+    "author": "Autor",
+    "createdAt": "Fecha de creación",
+    "updatedAt": "Fecha de actualización"
+  },
+  "validation": {
+    "required": "Este campo es obligatorio",
+    "email": "Por favor, ingrese una dirección de correo electrónico válida",
+    "phone": "Por favor, ingrese un número de teléfono válido",
+    "minLength": "Mínimo {{count}} caracteres requeridos",
+    "maxLength": "Máximo {{count}} caracteres permitidos"
+  },
+  "network": {
+    "offline": "Conexión de red perdida",
+    "online": "Conexión de red restaurada",
+    "timeout": "Tiempo de espera agotado",
+    "serverError": "Error del servidor",
+    "networkError": "Error de red, por favor verifique su conexión"
+  },
+  "bluetooth": {
+    "title": "Conectar auriculares Lingo",
+    "searching": "Buscando...",
+    "searchingDevices": "Buscando dispositivos",
+    "instructions": "Por favor, asegúrese de que sus auriculares estén encendidos y en modo de emparejamiento",
+    "stepTitle": "Pasos de emparejamiento:",
+    "step1": "1. Mantenga presionado el botón de encendido durante 3 segundos",
+    "step2": "2. Espere a que la luz indicadora parpadee",
+    "step3": "3. Los auriculares entrarán automáticamente en modo de emparejamiento",
+    "helpLink": "¿No puede encontrar los auriculares?",
+    "helpTitle": "Ayuda de emparejamiento y solución de problemas",
+    "helpContent": "Si no puede encontrar sus auriculares, por favor intente los siguientes métodos:\n\n1. Verifique que los auriculares estén cargados\n2. Reinicie la función Bluetooth\n3. Borre la caché de Bluetooth\n4. Restablezca los auriculares a la configuración de fábrica\n5. Asegúrese de que los auriculares estén a menos de 1 metro de su teléfono",
+    "tryAgain": "Buscar de nuevo",
+    "close": "Cerrar"
+  },
+  "register": {
+    "title": "Crear cuenta Lingo",
+    "phoneTab": "Registro por teléfono",
+    "emailTab": "Registro por correo electrónico",
+    "regionSelector": "China continental +86",
+    "phonePlaceholder": "Ingrese su número de teléfono",
+    "emailPlaceholder": "Ingrese su dirección de correo electrónico",
+    "sendCode": "Enviar código de verificación",
+    "sendingCode": "Enviando...",
+    "agreementPrefix": "He leído y acepto",
+    "userAgreement": "Términos de servicio",
+    "privacyPolicy": "Política de privacidad",
+    "agreementSeparator": "y",
+    "phoneError": "Por favor, ingrese un número de teléfono correcto",
+    "emailError": "Por favor, ingrese una dirección de correo electrónico correcta",
+    "agreementError": "Por favor, primero acepte los términos de servicio y la política de privacidad",
+    "sendSuccess": "Código de verificación enviado",
+    "sendFailed": "Fallo en el envío del código de verificación, por favor inténtelo de nuevo"
+  },
+  "splash": {
+    "appName": "Lingo",
+    "slogan": "Hacer el aprendizaje de idiomas más fácil",
+    "subSlogan": "Potenciado por IA inteligente, comience su viaje lingüístico",
+    "version": "Versión"
+  },
+  "welcome": {
+    "appName": "Auriculares Lingo AI",
+    "slogan": "Abrir nuevas fronteras de comunicación inteligente",
+    "features": {
+      "translation": {
+        "title": "Traducción precisa por IA",
+        "description": "Traducción multilingüe en tiempo real, romper las barreras del idioma",
+        "icon": "🌐"
+      },
+      "voiceClone": {
+        "title": "Clonación de voz personalizada",
+        "description": "Clone su voz para una experiencia de voz personalizada",
+        "icon": "🎤"
+      },
+      "companion": {
+        "title": "Compañero de comunicación inteligente",
+        "description": "Asistente de IA para hacer la comunicación más inteligente y eficiente",
+        "icon": "🤖"
+      }
+    },
+    "registerButton": "Crear cuenta Lingo",
+    "loginPrompt": "¿Ya tiene una cuenta?",
+    "loginLink": "Iniciar sesión ahora",
+    "agreementText": "Al registrarse o iniciar sesión, usted indica haber leído y aceptado",
+    "userAgreement": "Términos de servicio",
+    "privacyPolicy": "Política de privacidad",
+    "agreementSeparator": "y"
+  }
+} 

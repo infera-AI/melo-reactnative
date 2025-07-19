@@ -1,0 +1,260 @@
+{
+  "common": {
+    "loading": "読み込み中...",
+    "success": "成功",
+    "failed": "失敗",
+    "error": "エラー",
+    "confirm": "確認",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "close": "閉じる",
+    "refresh": "更新",
+    "clear": "クリア",
+    "export": "エクスポート",
+    "search": "検索",
+    "filter": "フィルター",
+    "settings": "設定",
+    "tapToView": "タップして詳細を表示",
+    "empty": "空",
+    "requestDetails": "リクエスト詳細",
+    "requestHeaders": "リクエストヘッダー",
+    "requestParams": "リクエストパラメータ",
+    "responseHeaders": "レスポンスヘッダー",
+    "responseData": "レスポンスデータ"
+  },
+  "app": {
+    "title": "APIテスト",
+    "subtitle": "API設定が完了しました",
+    "status": "React Native アプリ実行中"
+  },
+  "api": {
+    "test": {
+      "login": "ログインAPIテスト",
+      "getPosts": "投稿取得APIテスト",
+      "createPost": "投稿作成APIテスト",
+      "requesting": "リクエスト中..."
+    },
+    "result": {
+      "title": "API呼び出し結果:",
+      "loginSuccess": "ログイン成功",
+      "loginFailed": "ログイン失敗",
+      "getPostsSuccess": "投稿リスト取得成功",
+      "getPostsFailed": "投稿リスト取得失敗",
+      "createPostSuccess": "投稿作成成功",
+      "createPostFailed": "投稿作成失敗",
+      "clearResult": "結果をクリア"
+    }
+  },
+  "debug": {
+    "title": "デバッグパネルを開く",
+    "panel": {
+      "title": "デバッグパネル",
+      "network": "ネットワーク",
+      "device": "デバイス",
+      "logs": "ログ",
+      "performance": "パフォーマンス"
+    },
+    "network": {
+      "stats": "ネットワーク統計",
+      "total": "総リクエスト数",
+      "success": "成功",
+      "failed": "失敗",
+      "avgTime": "平均時間",
+      "recentRequests": "最近のリクエスト",
+      "slowRequests": "低速リクエスト",
+      "refresh": "更新",
+      "clear": "クリア",
+      "export": "エクスポート",
+      "exportTitle": "ネットワークデバッグデータ",
+      "exportFailed": "エクスポート失敗",
+      "exportError": "ネットワークデータをエクスポートできません",
+      "networkCleared": "ネットワークデータをクリアしました",
+      "requestPending": "保留中",
+      "requestError": "リクエストエラー",
+      "duration": "継続時間"
+    },
+    "device": {
+      "info": "デバイス情報",
+      "platform": "プラットフォーム",
+      "version": "バージョン",
+      "model": "モデル",
+      "memory": "メモリ",
+      "battery": "バッテリー",
+      "screenSize": "画面サイズ",
+      "deviceName": "デバイス名",
+      "brand": "ブランド",
+      "debugMode": "デバッグモード",
+      "development": "開発環境",
+      "production": "本番環境"
+    },
+    "performance": {
+      "title": "パフォーマンス監視",
+      "memoryUsage": "メモリ使用量",
+      "batteryLevel": "バッテリー残量",
+      "slowRequests": "低速リクエスト (>2秒)"
+    },
+    "logs": {
+      "title": "ログ記録",
+      "clear": "ログをクリア",
+      "export": "ログをエクスポート",
+      "filter": "フィルター",
+      "all": "すべて",
+      "info": "情報",
+      "warning": "警告",
+      "error": "エラー"
+    }
+  },
+  "features": {
+    "title": "技術スタック設定",
+    "list": {
+      "httpClient": "HTTPクライアント: axios + インターセプター",
+      "tokenManagement": "自動トークン管理",
+      "errorHandling": "統一エラー処理",
+      "typescript": "TypeScript型サポート",
+      "logging": "リクエスト/レスポンスログ",
+      "debugTools": "デバッグツール統合"
+    },
+    "status": "React Native StyleSheet スタイル"
+  },
+  "language": {
+    "title": "言語設定",
+    "current": "現在の言語",
+    "switch": "言語を切り替え",
+    "chinese": "简体中文",
+    "english": "English",
+    "japanese": "日本語",
+    "french": "Français",
+    "spanish": "Español",
+    "switchSuccess": "言語を正常に切り替えました",
+    "switchFailed": "言語の切り替えに失敗しました"
+  },
+  "auth": {
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "register": "登録",
+    "username": "ユーザー名",
+    "password": "パスワード",
+    "email": "メール",
+    "phone": "電話",
+    "name": "名前"
+  },
+  "login": {
+    "title": "Lingoアカウントにログイン",
+    "phoneLogin": "電話番号でログイン",
+    "emailLogin": "メールでログイン",
+    "phoneNumber": "電話番号",
+    "phoneNumberPlaceholder": "電話番号を入力してください",
+    "email": "メール",
+    "emailPlaceholder": "メールアドレスを入力してください",
+    "password": "パスワード",
+    "passwordPlaceholder": "ログインパスワードを入力してください",
+    "loginButton": "ログイン",
+    "loggingIn": "ログイン中...",
+    "forgotPassword": "パスワードをお忘れですか？",
+    "verificationLogin": "認証コードログイン",
+    "loginSuccess": "ログイン成功",
+    "loginFailed": "ログイン失敗",
+    "invalidPhone": "正しい電話番号とパスワードを入力してください",
+    "invalidEmail": "正しいメールアドレスとパスワードを入力してください",
+    "networkError": "ネットワーク接続に失敗しました。もう一度お試しください"
+  },
+  "posts": {
+    "title": "投稿",
+    "list": "投稿リスト",
+    "detail": "投稿詳細",
+    "create": "投稿作成",
+    "edit": "投稿編集",
+    "delete": "投稿削除",
+    "publish": "公開",
+    "draft": "下書き",
+    "archived": "アーカイブ済み",
+    "content": "内容",
+    "author": "著者",
+    "createdAt": "作成日時",
+    "updatedAt": "更新日時"
+  },
+  "validation": {
+    "required": "このフィールドは必須です",
+    "email": "有効なメールアドレスを入力してください",
+    "phone": "有効な電話番号を入力してください",
+    "minLength": "最低{{count}}文字必要です",
+    "maxLength": "最大{{count}}文字まで入力可能です"
+  },
+  "network": {
+    "offline": "ネットワーク接続が切断されました",
+    "online": "ネットワーク接続が復元されました",
+    "timeout": "リクエストタイムアウト",
+    "serverError": "サーバーエラー",
+    "networkError": "ネットワークエラー、接続を確認してください"
+  },
+  "bluetooth": {
+    "title": "Lingoヘッドフォンを接続",
+    "searching": "検索中...",
+    "searchingDevices": "デバイスを検索中",
+    "instructions": "ヘッドフォンの電源が入っており、ペアリングモードになっていることを確認してください",
+    "stepTitle": "ペアリング手順:",
+    "step1": "1. 電源ボタンを3秒間長押し",
+    "step2": "2. インジケーターライトが点滅するまで待つ",
+    "step3": "3. ヘッドフォンが自動的にペアリングモードに入ります",
+    "helpLink": "ヘッドフォンが見つかりませんか？",
+    "helpTitle": "ペアリングヘルプ & トラブルシューティング",
+    "helpContent": "ヘッドフォンが見つからない場合は、以下の方法をお試しください:\n\n1. ヘッドフォンが充電されていることを確認\n2. Bluetooth機能を再起動\n3. Bluetoothキャッシュをクリア\n4. ヘッドフォンを工場出荷時設定にリセット\n5. ヘッドフォンが携帯電話から1メートル以内にあることを確認",
+    "tryAgain": "再検索",
+    "close": "閉じる"
+  },
+  "register": {
+    "title": "Lingoアカウントを登録",
+    "phoneTab": "電話番号で登録",
+    "emailTab": "メールで登録",
+    "regionSelector": "中国本土 +86",
+    "phonePlaceholder": "電話番号を入力してください",
+    "emailPlaceholder": "メールアドレスを入力してください",
+    "sendCode": "認証コードを送信",
+    "sendingCode": "送信中...",
+    "agreementPrefix": "私は",
+    "userAgreement": "利用規約",
+    "privacyPolicy": "プライバシーポリシー",
+    "agreementSeparator": "と",
+    "phoneError": "正しい電話番号を入力してください",
+    "emailError": "正しいメールアドレスを入力してください",
+    "agreementError": "利用規約とプライバシーポリシーに同意してください",
+    "sendSuccess": "認証コードを送信しました",
+    "sendFailed": "認証コードの送信に失敗しました。もう一度お試しください"
+  },
+  "splash": {
+    "appName": "Lingo",
+    "slogan": "言語学習をもっと簡単に",
+    "subSlogan": "スマートAIがサポートし、あなたの言語の旅を始めましょう",
+    "version": "バージョン"
+  },
+  "welcome": {
+    "appName": "Lingo AIヘッドフォン",
+    "slogan": "スマートコミュニケーションの新境界を開く",
+    "features": {
+      "translation": {
+        "title": "AI精密翻訳",
+        "description": "リアルタイム多言語翻訳、言語の壁を破る",
+        "icon": "🌐"
+      },
+      "voiceClone": {
+        "title": "パーソナライズド音声クローン",
+        "description": "あなたの声をクローンし、パーソナライズドな音声体験を提供",
+        "icon": "🎤"
+      },
+      "companion": {
+        "title": "スマートコミュニケーションパートナー",
+        "description": "AIアシスタントがコミュニケーションをよりスマートで効率的に",
+        "icon": "🤖"
+      }
+    },
+    "registerButton": "Lingoアカウントを登録",
+    "loginPrompt": "既にアカウントをお持ちですか？",
+    "loginLink": "今すぐログイン",
+    "agreementText": "登録またはログインすることで、あなたは",
+    "userAgreement": "利用規約",
+    "privacyPolicy": "プライバシーポリシー",
+    "agreementSeparator": "と"
+  }
+} 

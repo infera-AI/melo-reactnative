@@ -1,0 +1,260 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "success": "成功",
+    "failed": "失败",
+    "error": "错误",
+    "confirm": "确认",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "refresh": "刷新",
+    "clear": "清除",
+    "export": "导出",
+    "search": "搜索",
+    "filter": "筛选",
+    "settings": "设置",
+    "tapToView": "点击查看详情",
+    "empty": "空",
+    "requestDetails": "请求详情",
+    "requestHeaders": "请求头",
+    "requestParams": "请求参数",
+    "responseHeaders": "响应头",
+    "responseData": "响应数据"
+  },
+  "app": {
+    "title": "API接口测试",
+    "subtitle": "接口对接配置已完成",
+    "status": "React Native 应用运行中"
+  },
+  "api": {
+    "test": {
+      "login": "测试登录API",
+      "getPosts": "测试获取文章API",
+      "createPost": "测试创建文章API",
+      "requesting": "请求中..."
+    },
+    "result": {
+      "title": "API调用结果:",
+      "loginSuccess": "登录成功",
+      "loginFailed": "登录失败",
+      "getPostsSuccess": "获取文章列表成功",
+      "getPostsFailed": "获取文章列表失败",
+      "createPostSuccess": "创建文章成功",
+      "createPostFailed": "创建文章失败",
+      "clearResult": "清除结果"
+    }
+  },
+  "debug": {
+    "title": "打开调试面板",
+    "panel": {
+      "title": "调试面板",
+      "network": "网络",
+      "device": "设备",
+      "logs": "日志",
+      "performance": "性能"
+    },
+    "network": {
+      "stats": "网络统计",
+      "total": "总请求",
+      "success": "成功",
+      "failed": "失败",
+      "avgTime": "平均耗时",
+      "recentRequests": "最近请求",
+      "slowRequests": "慢请求",
+      "refresh": "刷新",
+      "clear": "清除",
+      "export": "导出",
+      "exportTitle": "网络调试数据",
+      "exportFailed": "导出失败",
+      "exportError": "无法导出网络数据",
+      "networkCleared": "已清除网络数据",
+      "requestPending": "请求中",
+      "requestError": "请求错误",
+      "duration": "耗时"
+    },
+    "device": {
+      "info": "设备信息",
+      "platform": "平台",
+      "version": "版本",
+      "model": "型号",
+      "memory": "内存",
+      "battery": "电池",
+      "screenSize": "屏幕尺寸",
+      "deviceName": "设备名称",
+      "brand": "品牌",
+      "debugMode": "调试模式",
+      "development": "开发环境",
+      "production": "生产环境"
+    },
+    "performance": {
+      "title": "性能监控",
+      "memoryUsage": "内存使用",
+      "batteryLevel": "电池电量",
+      "slowRequests": "慢请求 (>2s)"
+    },
+    "logs": {
+      "title": "日志记录",
+      "clear": "清除日志",
+      "export": "导出日志",
+      "filter": "筛选",
+      "all": "全部",
+      "info": "信息",
+      "warning": "警告",
+      "error": "错误"
+    }
+  },
+  "features": {
+    "title": "技术栈配置",
+    "list": {
+      "httpClient": "HTTP客户端: axios + 拦截器",
+      "tokenManagement": "自动token管理",
+      "errorHandling": "统一错误处理",
+      "typescript": "TypeScript类型支持",
+      "logging": "请求/响应日志",
+      "debugTools": "调试工具集成"
+    },
+    "status": "React Native StyleSheet 样式"
+  },
+  "language": {
+    "title": "语言设置",
+    "current": "当前语言",
+    "switch": "切换语言",
+    "chinese": "简体中文",
+    "english": "English",
+    "japanese": "日本語",
+    "french": "Français",
+    "spanish": "Español",
+    "switchSuccess": "语言切换成功",
+    "switchFailed": "语言切换失败"
+  },
+  "auth": {
+    "login": "登录",
+    "logout": "登出",
+    "register": "注册",
+    "username": "用户名",
+    "password": "密码",
+    "email": "邮箱",
+    "phone": "手机号",
+    "name": "姓名"
+  },
+  "login": {
+    "title": "登录Lingo账号",
+    "phoneLogin": "手机号登录",
+    "emailLogin": "邮箱登录",
+    "phoneNumber": "手机号",
+    "phoneNumberPlaceholder": "请输入您的手机号码",
+    "email": "邮箱",
+    "emailPlaceholder": "请输入您的邮箱地址",
+    "password": "密码",
+    "passwordPlaceholder": "请输入登录密码",
+    "loginButton": "登录",
+    "loggingIn": "登录中...",
+    "forgotPassword": "忘记密码？",
+    "verificationLogin": "验证码登录",
+    "loginSuccess": "登录成功",
+    "loginFailed": "登录失败",
+    "invalidPhone": "请输入正确的手机号和密码",
+    "invalidEmail": "请输入正确的邮箱和密码",
+    "networkError": "网络连接失败，请重试"
+  },
+  "posts": {
+    "title": "文章",
+    "list": "文章列表",
+    "detail": "文章详情",
+    "create": "创建文章",
+    "edit": "编辑文章",
+    "delete": "删除文章",
+    "publish": "发布",
+    "draft": "草稿",
+    "archived": "已归档",
+    "content": "内容",
+    "author": "作者",
+    "createdAt": "创建时间",
+    "updatedAt": "更新时间"
+  },
+  "validation": {
+    "required": "此字段为必填项",
+    "email": "请输入有效的邮箱地址",
+    "phone": "请输入有效的手机号",
+    "minLength": "最少需要{{count}}个字符",
+    "maxLength": "最多允许{{count}}个字符"
+  },
+  "network": {
+    "offline": "网络连接已断开",
+    "online": "网络连接已恢复",
+    "timeout": "请求超时",
+    "serverError": "服务器错误",
+    "networkError": "网络错误，请检查网络连接"
+  },
+  "bluetooth": {
+    "title": "连接Lingo耳机",
+    "searching": "正在搜索...",
+    "searchingDevices": "正在搜索设备中",
+    "instructions": "请确保您的耳机已开启并处于配对模式",
+    "stepTitle": "配对步骤：",
+    "step1": "1. 长按耳机电源键3秒",
+    "step2": "2. 等待指示灯闪烁",
+    "step3": "3. 耳机将自动进入配对模式",
+    "helpLink": "无法找到耳机？",
+    "helpTitle": "配对帮助与故障排查",
+    "helpContent": "如果无法找到您的耳机，请尝试以下方法：\n\n1. 确认耳机已充电\n2. 重启蓝牙功能\n3. 清除蓝牙缓存\n4. 将耳机重置为出厂设置\n5. 确保耳机与手机距离在1米以内",
+    "tryAgain": "重新搜索",
+    "close": "关闭"
+  },
+  "register": {
+    "title": "注册Lingo账号",
+    "phoneTab": "手机号注册",
+    "emailTab": "邮箱注册",
+    "regionSelector": "中国大陆 +86",
+    "phonePlaceholder": "请输入您的手机号码",
+    "emailPlaceholder": "请输入您的邮箱地址",
+    "sendCode": "发送验证码",
+    "sendingCode": "发送中...",
+    "agreementPrefix": "我已阅读并同意",
+    "userAgreement": "《用户服务协议》",
+    "privacyPolicy": "《隐私政策》",
+    "agreementSeparator": "与",
+    "phoneError": "请输入正确的手机号码",
+    "emailError": "请输入正确的邮箱地址",
+    "agreementError": "请先同意用户服务协议和隐私政策",
+    "sendSuccess": "验证码已发送",
+    "sendFailed": "验证码发送失败，请重试"
+  },
+  "splash": {
+    "appName": "Lingo",
+    "slogan": "让语言学习更简单",
+    "subSlogan": "智能AI助力，开启你的语言之旅",
+    "version": "版本"
+  },
+  "welcome": {
+    "appName": "Lingo AI耳机",
+    "slogan": "开启智能沟通新边界",
+    "features": {
+      "translation": {
+        "title": "AI精准翻译",
+        "description": "实时多语言翻译，打破语言壁垒",
+        "icon": "🌐"
+      },
+      "voiceClone": {
+        "title": "个性声音克隆",
+        "description": "克隆你的声音，个性化语音体验",
+        "icon": "🎤"
+      },
+      "companion": {
+        "title": "智能沟通伙伴",
+        "description": "AI助手，让沟通更智能高效",
+        "icon": "🤖"
+      }
+    },
+    "registerButton": "注册Lingo账号",
+    "loginPrompt": "已有账号？",
+    "loginLink": "立即登录",
+    "agreementText": "注册或登录即表示您已阅读并同意",
+    "userAgreement": "《用户服务协议》",
+    "privacyPolicy": "《隐私政策》",
+    "agreementSeparator": "与"
+  }
+} 

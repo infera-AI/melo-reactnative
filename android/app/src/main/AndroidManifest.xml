@@ -1,0 +1,61 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+    <!-- 麦克风权限 - 用于语音翻译和声纹识别 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    
+    <!-- 存储权限 - 用于保存翻译历史和个人设置 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    
+    <!-- 相机权限 - 用于拍照功能 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    
+    <!-- 通知权限 - Android 13+ 需要 -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    
+    <!-- 蓝牙权限 - 用于连接Lingo耳机 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    
+    <!-- Android 12+ 新的蓝牙权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    
+    <!-- 位置权限 - 部分Android版本蓝牙扫描需要 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    
+    <!-- 网络状态权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <!-- 唤醒锁权限 - 防止翻译过程中休眠 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+      android:name=".MainApplication"
+      android:label="@string/app_name"
+      android:icon="@mipmap/ic_launcher"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:allowBackup="false"
+      android:theme="@style/AppTheme"
+      android:supportsRtl="true"
+      android:usesCleartextTraffic="true">
+      <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+        android:launchMode="singleTask"
+        android:windowSoftInputMode="adjustResize"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+      </activity>
+    </application>
+</manifest>

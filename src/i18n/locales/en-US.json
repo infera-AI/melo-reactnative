@@ -1,0 +1,260 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "success": "Success",
+    "failed": "Failed",
+    "error": "Error",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "refresh": "Refresh",
+    "clear": "Clear",
+    "export": "Export",
+    "search": "Search",
+    "filter": "Filter",
+    "settings": "Settings",
+    "tapToView": "Tap to view details",
+    "empty": "Empty",
+    "requestDetails": "Request Details",
+    "requestHeaders": "Request Headers",
+    "requestParams": "Request Parameters",
+    "responseHeaders": "Response Headers",
+    "responseData": "Response Data"
+  },
+  "app": {
+    "title": "API Testing",
+    "subtitle": "API Configuration Completed",
+    "status": "React Native App Running"
+  },
+  "api": {
+    "test": {
+      "login": "Test Login API",
+      "getPosts": "Test Get Posts API",
+      "createPost": "Test Create Post API",
+      "requesting": "Requesting..."
+    },
+    "result": {
+      "title": "API Call Result:",
+      "loginSuccess": "Login successful",
+      "loginFailed": "Login failed",
+      "getPostsSuccess": "Get posts successful",
+      "getPostsFailed": "Get posts failed",
+      "createPostSuccess": "Create post successful",
+      "createPostFailed": "Create post failed",
+      "clearResult": "Clear Result"
+    }
+  },
+  "debug": {
+    "title": "Open Debug Panel",
+    "panel": {
+      "title": "Debug Panel",
+      "network": "Network",
+      "device": "Device",
+      "logs": "Logs",
+      "performance": "Performance"
+    },
+    "network": {
+      "stats": "Network Statistics",
+      "total": "Total Requests",
+      "success": "Success",
+      "failed": "Failed",
+      "avgTime": "Average Time",
+      "recentRequests": "Recent Requests",
+      "slowRequests": "Slow Requests",
+      "refresh": "Refresh",
+      "clear": "Clear",
+      "export": "Export",
+      "exportTitle": "Network Debug Data",
+      "exportFailed": "Export Failed",
+      "exportError": "Unable to export network data",
+      "networkCleared": "Network data cleared",
+      "requestPending": "Pending",
+      "requestError": "Request Error",
+      "duration": "Duration"
+    },
+    "device": {
+      "info": "Device Information",
+      "platform": "Platform",
+      "version": "Version",
+      "model": "Model",
+      "memory": "Memory",
+      "battery": "Battery",
+      "screenSize": "Screen Size",
+      "deviceName": "Device Name",
+      "brand": "Brand",
+      "debugMode": "Debug Mode",
+      "development": "Development",
+      "production": "Production"
+    },
+    "performance": {
+      "title": "Performance Monitor",
+      "memoryUsage": "Memory Usage",
+      "batteryLevel": "Battery Level",
+      "slowRequests": "Slow Requests (>2s)"
+    },
+    "logs": {
+      "title": "Logs",
+      "clear": "Clear Logs",
+      "export": "Export Logs",
+      "filter": "Filter",
+      "all": "All",
+      "info": "Info",
+      "warning": "Warning",
+      "error": "Error"
+    }
+  },
+  "features": {
+    "title": "Tech Stack Configuration",
+    "list": {
+      "httpClient": "HTTP Client: axios + interceptors",
+      "tokenManagement": "Automatic token management",
+      "errorHandling": "Unified error handling",
+      "typescript": "TypeScript type support",
+      "logging": "Request/response logging",
+      "debugTools": "Debug tools integration"
+    },
+    "status": "React Native StyleSheet Styles"
+  },
+  "language": {
+    "title": "Language Settings",
+    "current": "Current Language",
+    "switch": "Switch Language",
+    "chinese": "简体中文",
+    "english": "English",
+    "japanese": "日本語",
+    "french": "Français",
+    "spanish": "Español",
+    "switchSuccess": "Language switched successfully",
+    "switchFailed": "Language switch failed"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "phone": "Phone",
+    "name": "Name"
+  },
+  "login": {
+    "title": "Login to Lingo Account",
+    "phoneLogin": "Phone Login",
+    "emailLogin": "Email Login",
+    "phoneNumber": "Phone Number",
+    "phoneNumberPlaceholder": "Enter your phone number",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email address",
+    "password": "Password",
+    "passwordPlaceholder": "Enter login password",
+    "loginButton": "Login",
+    "loggingIn": "Logging in...",
+    "forgotPassword": "Forgot Password?",
+    "verificationLogin": "Verification Code Login",
+    "loginSuccess": "Login successful",
+    "loginFailed": "Login failed",
+    "invalidPhone": "Please enter correct phone number and password",
+    "invalidEmail": "Please enter correct email and password",
+    "networkError": "Network connection failed, please try again"
+  },
+  "posts": {
+    "title": "Posts",
+    "list": "Post List",
+    "detail": "Post Detail",
+    "create": "Create Post",
+    "edit": "Edit Post",
+    "delete": "Delete Post",
+    "publish": "Publish",
+    "draft": "Draft",
+    "archived": "Archived",
+    "content": "Content",
+    "author": "Author",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "phone": "Please enter a valid phone number",
+    "minLength": "Minimum {{count}} characters required",
+    "maxLength": "Maximum {{count}} characters allowed"
+  },
+  "network": {
+    "offline": "Network connection lost",
+    "online": "Network connection restored",
+    "timeout": "Request timeout",
+    "serverError": "Server error",
+    "networkError": "Network error, please check your connection"
+  },
+  "bluetooth": {
+    "title": "Connect Lingo Headphones",
+    "searching": "Searching...",
+    "searchingDevices": "Searching for devices",
+    "instructions": "Please ensure your headphones are powered on and in pairing mode",
+    "stepTitle": "Pairing Steps:",
+    "step1": "1. Long press the power button for 3 seconds",
+    "step2": "2. Wait for the indicator light to flash",
+    "step3": "3. The headphones will automatically enter pairing mode",
+    "helpLink": "Can't find headphones?",
+    "helpTitle": "Pairing Help & Troubleshooting",
+    "helpContent": "If you can't find your headphones, please try the following:\n\n1. Ensure headphones are charged\n2. Restart Bluetooth function\n3. Clear Bluetooth cache\n4. Reset headphones to factory settings\n5. Ensure headphones are within 1 meter of your phone",
+    "tryAgain": "Search again",
+    "close": "Close"
+  },
+  "register": {
+    "title": "Register Lingo Account",
+    "phoneTab": "Phone Registration",
+    "emailTab": "Email Registration",
+    "regionSelector": "China +86",
+    "phonePlaceholder": "Enter your phone number",
+    "emailPlaceholder": "Enter your email address",
+    "sendCode": "Send Code",
+    "sendingCode": "Sending...",
+    "agreementPrefix": "I have read and agree to",
+    "userAgreement": "User Service Agreement",
+    "privacyPolicy": "Privacy Policy",
+    "agreementSeparator": "and",
+    "phoneError": "Please enter a valid phone number",
+    "emailError": "Please enter a valid email address",
+    "agreementError": "Please agree to the User Service Agreement and Privacy Policy",
+    "sendSuccess": "Verification code sent",
+    "sendFailed": "Failed to send verification code, please try again"
+  },
+  "splash": {
+    "appName": "Lingo",
+    "slogan": "Make Language Learning Easier",
+    "subSlogan": "AI-powered language journey starts here",
+    "version": "Version"
+  },
+  "welcome": {
+    "appName": "Lingo AI Earbuds",
+    "slogan": "Unlock Smart Communication Boundaries",
+    "features": {
+      "translation": {
+        "title": "AI Accurate Translation",
+        "description": "Real-time multilingual translation, breaking language barriers",
+        "icon": "🌐"
+      },
+      "voiceClone": {
+        "title": "Personal Voice Cloning",
+        "description": "Clone your voice for personalized audio experience",
+        "icon": "🎤"
+      },
+      "companion": {
+        "title": "Smart Communication Partner",
+        "description": "AI assistant for smarter and more efficient communication",
+        "icon": "🤖"
+      }
+    },
+    "registerButton": "Register Lingo Account",
+    "loginPrompt": "Already have an account?",
+    "loginLink": "Sign In",
+    "agreementText": "By registering or signing in, you agree to our",
+    "userAgreement": "User Service Agreement",
+    "privacyPolicy": "Privacy Policy",
+    "agreementSeparator": "and"
+  }
+} 
